@@ -16,10 +16,10 @@ def classify_price(x):
     range3 = 1200000
     
     if x < range1:
-        return range2
+        return range1
         return '400,000'
     elif x < range2:
-        return range1
+        return range2
         return '800,000'
     elif x < range3:
         return range3
